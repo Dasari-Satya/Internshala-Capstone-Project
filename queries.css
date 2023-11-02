@@ -1,0 +1,924 @@
+/* Media Queries for Responsive Website */
+
+/* Galaxy Fold Styling for Responsive Using Media Queries */
+@media screen and (max-width:280px) {
+    
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .navbar .navbar-toggler-icon{
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        line-height: 5px;
+    }
+
+    /* Cart Responsive Styling using media queries */
+    .container.container-cart{
+        min-height: 100vh;
+    }
+    .container.container-cart .row .card {
+        min-height: 50vh;
+        line-height: 20px;
+    }
+    .container.container-cart .row .card .Quantity{
+        margin-left: -120px;
+    }
+    .container.container-cart .row .card .Quantity .price{
+        margin-right: -60px;
+    }
+    .container.container-cart .row #card2{
+        min-height: 50vh;
+        margin-top: -40px;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+       line-height: 10px;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        max-height: 200vh;
+        border: 2px solid #e67e22;
+    }
+
+    
+
+    /* Slider Styling for Responsive  using Media Queries*/
+
+    #small-screen-slider h4{
+        margin: 20px -200px;
+    }
+    #small-screen-slider .container{
+        margin: 20px -80px;
+        max-width: 250px;
+    }
+    #small-screen-slider .container .row .card{
+        max-height: 500px;
+        
+    }
+    
+    #small-screen-slider .container .row .card .card-body button{
+        max-width: 125px;
+    }
+    /* .carousel-control-prev,
+    .carousel-control-next
+    {
+        display: none;
+    } */
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    #products h4{
+        font-size: 20px;
+    }
+    .flex-container-card{
+        /* min-width: 400px; */
+        margin: 0px -15px;
+    }
+}
+
+
+/* Samsung Galaxy S8+ Styling for Responsive Using Media Queries */
+@media  screen and (min-width:360px) {
+    
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .container-form .row .card.contact-form{
+        min-height: 90vh;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        line-height: 10px;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        height: 120vh;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom .container.container-cart .row .card {
+        min-height: 100vh;
+        margin-top: 100px;
+
+    }
+    .gradient-custom .container.container-cart .row .card .Quantity{
+        margin-left: -10px;
+    }
+
+
+    /* Slider Styling for Responsive  using Media Queries*/
+
+    #small-screen-slider h4{
+        margin-right: 100px;
+    }
+    #small-screen-slider{
+        min-width: 450px;
+        margin: 20px 120px;
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+
+    #products .flex-container-card{
+        /* min-width: 400px; */
+        margin: 0px -15px;
+    }
+}
+
+/* Iphone SE Styling for Responsive Using Media Queries */
+@media screen and (min-width:375px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        min-height: 90vh;
+    }
+
+    /* Cart Responsive Styling using media queries */
+    .gradient-custom .container.container-cart{
+        height: 250vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        min-height: 70vh;
+        margin-top: 450px;
+        font-size: 22px;
+        border: none;
+    }
+    .gradient-custom .container.container-cart .row .card .Quantity{
+        margin-left: 50px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-right: 100px;
+        font-size: 22px;
+    }
+    .container.container-cart .row #card2{
+        margin-top: 450px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: -10rem;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        min-height: 80vh;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        min-height: 150vh;
+        border: 2px solid #e67e22;
+    }
+
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    #small-screen-slider .row
+    {
+        border-radius: 10px;
+        margin: 20px -15px;
+        width: 300px;
+    }
+    #small-screen-slider .container .row .card{
+        max-height: 500px;
+        margin: 0px 0px 0px -10px;
+        
+    }
+    #small-screen-slider .container .row .card .card-body button{
+        max-width: 125px;
+     }
+    /* .carousel-control-prev,
+    .carousel-control-next
+    {
+        display: none;
+    } */
+    #small-screen-slider h4{
+        margin-right: 60px;
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    #products h4{
+        font-size: 20px;
+    }
+    .flex-container-card{
+        min-width: 400px;
+    }
+    .flex-container-card .card.cards{
+        /* min-height: 465px;
+        min-width: 200px; */
+        margin: 15px 0px;
+    }
+
+}
+
+/* Iphone 12 pro Styling for Responsive Using Media Queries */
+@media screen and (max-width:390px) {
+
+
+    /* Contact Us Page Responsive Using Media Queries */
+    .container-form .row .card.contact-form{
+        line-height: 50px;
+    }
+
+    /* Cart Responsive Styling using media queries */
+    .gradient-custom{
+        min-height: 220vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        min-height: 70vh;
+        margin-top: 450px;
+        font-size: 22px;
+        border: none;
+    }
+    .container.container-cart .row .card .quantity{
+        margin-left: 60px;
+    }
+    .container.container-cart .row .card .price{
+        margin-left: 120px;
+        font-size: 22px;
+    }
+    .container.container-cart .row #card2{
+        
+        margin-top: 400px;
+        width: 100%;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        min-height: 250vh;
+        border: 2px solid #e67e22;
+        line-height: 10px;
+    }
+
+
+    /* Slider Styling for Responsive  using Media Queries*/
+
+    #small-screen-slider .container .row{
+        margin: 20px 80px;
+    }
+    
+    /* Product Cards Styling for Responsive Using Media Queries */
+   
+    #products .flex-container-card .card.cards{
+        margin: 15px 0px;
+    }
+
+}
+
+
+
+/* Samsung Galaxy A51/71 Styling for Responsive Using Media Queries */
+@media screen and (max-width:412px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        min-height: 50vh;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        max-height: 60vh;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        max-height: 110vh;
+        border: 2px solid #e67e22;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom .container.container-cart{
+        min-height: 180vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        max-height: 50vh;
+        margin-top: 300px;
+        font-size: 22px;
+        border: none;
+    }
+    .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 60px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 120px;
+        font-size: 22px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 320px;
+        width: 100%;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    #small-screen-slider h4{
+        margin: 20px -130px;
+    }
+    #small-screen-slider .container .row{
+        border-radius: 10px;
+        margin: 20px 40px;
+        width: 300px;
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    
+    #products .flex-container.flex-container-card .card.cards{
+        margin: 15px 20px;
+        /* min-height: 450px;
+        min-width: 300px; */
+    }
+
+
+}
+
+
+/* Iphone XR Styling for Responsive Using Media Queries */
+@media screen and (max-width:414px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .container-form .row .card.contact-form{
+        max-height: 70vh;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        min-height: 0vh;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        min-height: 50vh;
+        border: 2px solid #e67e22;
+    }
+
+    /* Cart Responsive Styling using media queries */
+    .gradient-custom .container.container-cart{
+        max-height: 210vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        margin-top: 200px;
+        font-size: 22px;
+        border: none;
+    }
+    .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 60px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 120px;
+        font-size: 22px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 300px;
+        width: 100%;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    
+    #small-screen-slider .row
+    {
+
+        margin: 20px -15px;
+    }
+    #small-screen-slider{
+        margin: 20px -15px;
+    }
+    #small-screen-slider h4{
+        margin-left: 80px;
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    
+    /* #products .flex-container-card .card.cards{
+        min-height: 465px;
+        min-width: 200px;
+        margin: 15px 10px;
+    } */
+
+}
+
+/* Surface Duo Styling for Responsive Using Media Queries */
+@media  only screen and (max-width:540px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .navbar .navbar-toggler-icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        max-height: 80vh;
+    }
+    .contact-section .container-form .row .card.contact-form .img-fluid{
+        height: 51.2vh;
+        margin-bottom: 3.2rem;
+    }
+
+    /* Cart Responsive Styling using media queries */
+    .gradient-custom{
+        max-height: 300vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        max-height: 30vh;
+        margin-top: 300px;
+        font-size: 22px;
+        border: none;
+    }
+    .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 130px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 190px;
+        font-size: 22px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 350px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: -10rem;
+    }
+
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        max-height: 70vh;
+    }
+
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        max-height: 140vh;
+        border: 2px solid #e67e22;
+    }
+
+    
+    /* Slider Styling for Responsive  using Media Queries*/
+    #small-screen-slider .row
+    {
+        margin: 20px -40px;
+    }
+    #small-screen-slider h4{
+        margin-left: -150px;
+    }
+    #small-screen-slider .container{
+        margin: 20px 30px;
+    }
+
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    /* #products .flex-container-card .card.cards{
+        margin: 15px 80px;
+    } */
+
+}
+
+
+
+/* Ipad Mini Styling for Responsive Using Media Queries */
+@media only screen and (min-width:768px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 200px;
+        height: 200px;
+    }
+    .navbar .navbar-toggler-icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+    
+    .contact-section .container-form .row .card.contact-form{
+        min-height: 50vh;
+        
+    }
+    .contact-section .container-form .row .card.contact-form .img-fluid{
+        min-height: 81.5vh;
+        margin-bottom: 3.1rem;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom {
+        min-height: 90vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        margin-top: 100px;
+    }
+    /* .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 6px;
+    } */
+    /* .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 10px;
+        font-size: 20px;
+    } */
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: -30px;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        min-height: 50vh;
+        line-height: 30px;
+    }
+    .section-login .container.container-login .card.card-login .img-fluid{
+        min-height: 55vh;
+        margin-bottom: 3rem;
+    }
+
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        min-height: 80vh;
+        line-height: 50px;
+        border: 2px solid #e67e22;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    #medium-screen-slider .container{
+        margin: 20px -10px;
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    /* #products .flex-container-card .card.cards{
+        margin: 15px 20px;
+    } */
+}
+
+
+/* Ipad Air Styling for Responsive Using Media Queries */
+@media only screen and (min-width:820px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 200px;
+        height: 200px;
+    }
+    .navbar .navbar-toggler-icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .container-form .row .card.contact-form{
+        max-height: 50vh;
+    }
+    .container-form .row .card.contact-form .img-fluid{
+        height: 51.2vh;
+        margin-bottom: 3.2rem;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .container.container-login .card.card-login{
+        max-height: 45vh;
+    }
+    .container.container-login .card.card-login .img-fluid{
+        height: 46.4vh;
+        margin-top: 1.4rem;
+    }
+
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .container.container-register .card.card-registration{
+        max-height: 75vh;
+        border: 2px solid #e67e22;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .container.container-cart{
+        height: 90vh;
+    }
+    .container.container-cart .row .card {
+        max-height: 100vh;
+        margin-top: 250px;
+        font-size: 20px;
+        border: none;
+    }
+    .container.container-cart .row .card .quantity{
+        margin-left: 6px;
+    }
+    .container.container-cart .row .card .price{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .container.container-cart .row #card2{
+        margin-top: 70px;
+        line-height: 45px;
+        min-width: 260px;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    #medium-screen-slider .row
+    {
+        min-width: 750px;
+        margin: 15px -40px;
+    }
+    #medium-screen-slider{
+        margin: 20px 25px;
+    }
+    #medium-screen-slider .container{
+        margin: 20px 30px;
+    }
+    #medium-screen-slider .container .row .card{
+        max-height: 500px;
+        
+    }
+    #medium-screen-slider .container .row .card .card-body button{
+        min-width: 120px;
+     }
+    /* .carousel-control-prev,
+    .carousel-control-next
+    {
+        display: none;
+    } */
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+
+    /* #products .flex-container-card .card.cards{
+        margin: 15px 10px;
+        min-height: 465px;
+        min-width: 350px;
+    } */
+
+}
+
+
+/* Surface Pro 7 Styling for Responsive Using Media Queries */
+@media  only screen and (min-width:912px) {
+
+    /* Navbar Styling for Responsive Using Media Queries */
+    .navbar .container-fluid .navbar-brand img{
+        width: 250px;
+        height: 250px;
+    }
+    .navbar .navbar-toggler-icon{
+        width: 90px;
+        height: 90px;
+        border-radius: 20px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        max-height: 50vh;
+    }
+    .contact-section .container-form .row .card.contact-form .img-fluid{
+        margin-bottom: 3rem;
+        min-height: 10vh;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        max-height: 50vh;
+    }
+    .section-login .container.container-login .card.card-login .img-fluid{
+        min-height: 51vh;
+        margin-top: 2.5rem;
+    }
+
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        max-height: 75vh;
+        border: 2px solid #e67e22;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom .container.container-cart{
+        height: 85vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        max-height: 50vh;
+        margin-top: 70px;
+        font-size: 20px;
+        border: none;
+    }
+    .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 6px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 70px;
+        line-height: 45px;
+        min-width: 260px;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+    #medium-screen-slider{
+        margin-left: -25px;
+    }
+    
+    #medium-screen-slider .container{
+        margin: 20px 120px;  
+    }
+
+    /* Product Cards Styling for Responsive Using Media Queries */
+    /* #products .flex-container-card .card.cards{
+        min-height: 465px;
+        margin: 15px 35px;
+    } */
+
+}
+
+/* Nest Hub Styling for Responsive Using Media Queries */
+
+@media only screen and (max-width:1024px){
+
+    /* Navabar Styling for Responsive Using Media Queries */
+
+    .navbar .container-fluid .navbar-brand img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        max-height: 100vh;
+    }
+    .contact-section .container-form .row .card.contact-form .img-fluid{
+        min-height: 102.5vh;
+        margin-top: 3rem;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        max-height: 90vh;
+    }
+    .section-login .container.container-login .card.card-login .img-fluid{
+        min-height: 91.5vh;
+        margin-top: 4.2rem;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        min-height: 160vh;
+        border: 2px solid #e67e22;
+    }
+
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom .container.container-cart{
+        height: 100vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        max-height: 50vh;
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .gradient-custom .container.container-cart .row .card .Quantity{
+        margin-left: 160px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 30px;
+        line-height: 45px;
+        min-width: 260px;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+
+    #largeScreenSlider{
+        margin: 25px;
+    }
+    #largeScreenSlider .row .card{
+        min-height: 480px;
+        margin: 20px 0px;
+    }
+
+     /* Product Cards Styling for Responsive Using Media Queries */
+     #products {
+        max-width: 100%;
+     }
+     #products .flex-container-card .card.cards{
+        margin: 15px 60px;
+
+    }
+}
+
+
+/* Nest Hub Max Styling for Responsive Using Media Queries */
+
+@media only screen and (max-width:1280px){
+
+    /* Navabar Styling for Responsive Using Media Queries */
+
+    .navbar .container-fluid .navbar-brand img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    /* Contact Us Page Responsive Using Media Queries */
+
+    .contact-section .container-form .row .card.contact-form{
+        max-height: 80vh;
+    }
+    .contact-section .container-form .row .card.contact-form .img-fluid{
+        min-height: 82vh;
+        margin-top: 3rem;
+    }
+
+    /* Login Page Responsive styling Using Media Queries */
+    .section-login .container.container-login .card.card-login{
+        max-height: 70vh;
+    }
+    .section-login .container.container-login .card.card-login .img-fluid{
+        min-height: 72vh;
+        margin-top: 3.3rem;
+    }
+
+    /* Registration Page Responsive Styling Using Media Queries  */
+    .section-register .container.container-register .card.card-registration{
+        max-height: 125vh;
+        border: 2px solid #e67e22;
+    }
+    .section-register .container.container-register .card.card-registration .img-fluid{
+        min-height: 126.6vh;
+        margin-top: .5rem;
+    }
+    /* Cart Responsive Styling using media queries */
+
+    .gradient-custom .container.container-cart{
+        height: 80vh;
+    }
+    .gradient-custom .container.container-cart .row .card {
+        max-height: 50vh;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .gradient-custom .container.container-cart .row .card .quantity{
+        margin-left: 6px;
+    }
+    .gradient-custom .container.container-cart .row .card .price{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .gradient-custom .container.container-cart .row #card2{
+        margin-top: 5px;
+        line-height: 45px;
+        min-width: 260px;
+    }
+
+    /* Slider Styling for Responsive  using Media Queries*/
+
+    #largeScreenSlider{
+        margin: 25px;
+    }
+    #largeScreenSlider .row .card{
+        min-height: 480px;
+        margin: 20px 0px;
+    }
+
+     /* Product Cards Styling for Responsive Using Media Queries */
+
+     #products .flex-container-card .card.cards{
+        min-height: 465px; 
+        margin: 20px 10px;
+    }
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>HEADER</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/Logo.jpeg" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-items">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                        <a class="nav-link active" aria-current="page" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-but">
+                        <a class="btn btn-outline-light" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Creating Navbar with products and Categories of the Ecommerce It's Useful to Easy Browsing Products -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav navbar-navs">
+                    <a class="nav-link active" href="allproducts.html">All Products</a>
+                    <a class="nav-link active" href="beauty.html">Beauty</a>
+                    <a class="nav-link active" href="sports.html">Sports</a>
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Women
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="allproductswomen.html">All Products</a></li>
+                            <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                            <li><a class="dropdown-item" href="kurtas.html">Kurtas</a></li>
+                            <li><a class="dropdown-item" href="tops&tees.html">Tops&Tees</a></li>
+                            <li><a class="dropdown-item" href="jeans.html">Jeans</a></li>
+                            <li><a class="dropdown-item" href="sarees.html">Sarees</a></li>
+                            <li><a class="dropdown-item" href="heels&flats.html">Heels& Flats</a></li>
+                            <li><a class="dropdown-item" href="beauty.html">Beauty</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-navs">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Men
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="allproductsmen.html">All Products</a></li>
+                            <li><a class="dropdown-item" href="mentshirts.html">T-Shirts</a></li>
+                            <li><a class="dropdown-item" href="menjeans.html">Jeans</a></li>
+                            <li><a class="dropdown-item" href="menshirts.html">Shirts</a></li>
+                            <li><a class="dropdown-item" href="menfootwear.html">Footwear</a></li>
+                            <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="mentrousers.html">Trousers</a></li>
+                            <li><a class="dropdown-item" href="menhoodies.html">Hoodies</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-navs">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Kids
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="allproductskids.html">All Products</a></li>
+                            <li><a class="dropdown-item" href="girls.html">Girls</a></li>
+                            <li><a class="dropdown-item" href="boys.html">Boys</a></li>
+                            <li><a class="dropdown-item" href="footwear.html">Footwear</a></li>
+                            <li><a class="dropdown-item" href="babycare.html">Baby Care</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
